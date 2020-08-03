@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  subtitles_pt_suffix:
+    image: uilton/subtitles_append_suffix:latest
+    volumes:
+      - A:\media\series:/rename/series
+      - A:\media\movies:/rename/movies
