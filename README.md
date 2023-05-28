@@ -12,5 +12,5 @@ docker run -it --rm \
     -e SUBTITLE_RENAME_DIR=/rename \  
     -e SUBTITLE_SUFFIX=.pt \  
     -e SUBTITLE_EXT=.srt \  
-    uilton/subtitles_append_suffix:latest sh
+    ghcr.io/uilton-oliveira/subtitles_append_suffix:latest sh
 ```
